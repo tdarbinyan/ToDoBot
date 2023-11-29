@@ -24,7 +24,6 @@ cursor.execute('''
 conn.commit()
 conn.close()
 
-# bot start and button output
 @bot.message_handler(commands=['start'])
 def start(message):
     keyboard = types.ReplyKeyboardMarkup(True)
