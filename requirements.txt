@@ -1,0 +1,5 @@
+telebot
+datetime
+sqlite3
+itertools
+operator
